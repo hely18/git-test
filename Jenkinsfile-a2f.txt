@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Docker') {
             steps {
-                echo 'welcome to Docker'
+                echo 'Welcome to Docker'
             }
         }
 	stage('Cloud') {
