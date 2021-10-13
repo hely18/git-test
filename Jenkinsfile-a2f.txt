@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('DevOps Basics') {
+            steps {
+                echo 'Welcome to DevOps Basics'
+            }
+        }
+        stage('Jenkins') {
+            steps {
+                echo 'Welcome to Jenkins'
+            }
+        }
+        stage('Docker') {
+            steps {
+                echo 'welcome to Docker'
+            }
+        }
+	stage('Cloud') {
+		steps {
+			echo 'Welcome to Cloud computing'
+		}
+	}
+    }
+}
