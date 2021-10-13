@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('DevOps Basics') {
             steps {
-                echo 'Welcome to DevOps Basics'
+                echo 'Welcome to DevOps Basics Course'
             }
         }
         stage('Jenkins') {
